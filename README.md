@@ -4,27 +4,38 @@
 |------|----|-------|
 |email|string|null: false|
 |password|string|null: false|
+|name|string|null: false、index: true|
+### Association
+- has_many :groups, through: :messages
+- has_many :users_groups
+- has_many :messages
+
+## groupsテーブル
+|Column|Type|Options|
+|------|----|-------|
 |name|string|null: false|
+
 ### Association
-- has_many :groups_id, through: :messages
+- has_many :users, through: :messages
+- has_many :users_groups
 - has_many :messages
 
-## groupテーブル
+## users_groupsテーブル
 |Column|Type|Options|
 |------|----|-------|
-|group|text|null: false|
-|message_id|text|null: false, foreign_key: true|
-|users_id|integer|null: false, foreign_key: true|
+|users.id|references|null: false, foreign_key: true|
+|groups.id|references|null: false, foreign_key: true|
 ### Association
-- has_many :users_id, through: :messages
-- has_many :messages
+- belongs_to :user
+- belongs_to :group
 
-## messageテーブル
+## messagesテーブル
 |Column|Type|Options|
 |------|----|-------|
-|message|text|null: false|
-|user_id|integer|null: false, foreign_key: true|
-|group_id|integer|null: false, foreign_key: true|
+|body|text||
+|image|string|
+|user_id|references|null: false, foreign_key: true|
+|group_id|references|null: false, foreign_key: true|
 ### Association
-- belongs_to :space
+- belongs_to :group
 - belongs_to :user
