@@ -1,0 +1,167 @@
+$blue:#38AEF0;
+$white:#FFFFFF;
+
+
+.header{
+    background-color: $blue;
+    height: 30px;
+    width: 100%;
+    color: $white;
+    text-align: center;
+    position: fixed;
+}
+.btn{
+    text-decoration: none;
+}
+
+.btn:visited{
+    color: $white;
+}
+
+.edit-btn{
+    text-decoration: none;
+}
+
+.edit-btn:visited{
+    color: $blue;
+}
+
+.chat-side__header{
+    height: 100px;
+    padding: 0;
+    background-color: #253141;
+    color: $white;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.chat-side{
+    background-color: #2f3e51;
+    color: $white;
+    font-size: 15px;
+    float: left;
+    width: 300px;
+    height: 100vh;
+    &__username{
+        font-size: 16px;
+        color: $white;
+        padding: 35px 0 0 20px;
+        float: left;
+    }
+    &__box{
+        float: right;
+        padding: 35px 20px 0 0;
+    }
+}
+
+.group{
+    color: $white;
+    padding: 20px 20px;
+    background-color: #2F3E51;
+    &__name{
+        font-size: 15px;
+        padding: 20px 0 5px 0;
+    }
+    &__mesaage{
+        font-size:11px;
+        padding: 0 0 20px 0;
+    }
+}
+
+.chat-space{
+    width: calc(100% - 300px);
+    height: 100vh;
+    float: right;
+    &__header{
+        width: 100%;
+        height: 130px;
+        background-color: $white;
+        float: right;
+        padding: 0 40px;
+        box-sizing: border-box;
+    }
+    &__name{
+        font-size: 20px;
+        padding: 65px 0 15px 0;
+    }
+    &__member{
+        font-size:12px;
+        color: #999999;
+        bottom: 0;
+        display: flex;
+    }
+    &__edit{
+        height: 40px;
+        line-height: 40px;
+        padding: 0 20px;
+        color: #38AEF0;
+        float: right;
+        border: solid 1px $blue;
+        right: 40px;
+        margin-top:60px;
+        text-decoration: none;
+    }
+    
+}
+
+.chat-main{
+    width: 100%;
+    height: calc(100% - 220px);
+    box-sizing: border-box;
+    padding: 0 40px;
+    background-color: #fafafa;
+    clear: both;
+    &__user{
+        font-size: 16px;
+        color: #434a54;
+        padding: 46px 0 10px 0;
+    }
+    chat-main__time{
+        font-size: 12px;
+        color: #999999;
+        padding-left: 10px;
+    }
+    &__message{
+        font-size: 14px;
+        color: #434a54;
+    }
+}
+
+.input-box{
+    width: 100%;
+    height: 90px;
+    background-color: grey;
+    float: right;
+    box-sizing: border-box;
+    padding: 20px 40px;
+    &__box{
+        position: relative;
+        width: calc(100% - 175px);
+        float: left;
+    }
+        &__image{
+            position: absolute;
+            font-size: 1.3rem;
+            top: 10px;
+            right: -30px;
+            cursor: pointer;
+        }
+    &__text{
+        height: 50px;
+        width: 100%;
+        padding: 0 40px 0 10px;
+        color: #434a54;
+        border-style: none;
+        
+    }
+    &__botan{
+        color: $white;
+        background-color: $blue;
+        padding: 0 30px;
+        margin-left: 15px;
+        width: 100px;
+        height: 50px;
+        cursor: pointer;
+        float: right;
+    }
+}
