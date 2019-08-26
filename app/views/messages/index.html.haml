@@ -1,0 +1,63 @@
+.header
+    .header__logo
+        グループを作成しました
+.chat-side
+    .chat-side__header
+        .chat-side__username
+            testname
+        .chat-side__box
+            =link_to "/", class: "btn" do
+                %i.fa.fa-edit
+            =link_to "/", class: "btn" do
+                %i.fa.fa-cog
+    .group
+        .group__name
+            sample-group
+        .group__mesaage
+            username
+            hello
+        .group__name
+            sample-group
+        .group__mesaage
+            username
+            hello
+        .group__name
+            sample-group
+        .group__mesaage
+            username
+            hello
+
+.chat-space
+    .chat-space__header
+        .chat-space__edit
+            =link_to "/",class: "edit-btn" do
+                Edit
+        .chat-space__name
+            sample
+        .chat-space__member
+            Members: inu neko
+    .chat-main
+        .chat-main__user
+            test-user
+            %chat-main__time
+                2019/08/25 11:11:11
+        .chat-main__mesaage
+            こんにちは
+        .chat-main__user
+            test-user
+            %chat-main__time
+                2019/08/25 11:11:11
+        .chat-main__mesaage
+            こんにちは
+
+
+    .input-box
+        .input-box__box
+            %input{id:"message_content",placeholder:"type a message",type:"text",class: "input-box__text"}
+            %label.input-box__image{for: "message_image"}
+                %i.fa.fa-image
+        .input-box__btn
+            %input{"data-disable-with" => "Send", :name => "commit", :type => "submit", :value => "Send",:class => "input-box__botan"}
+
+
+
