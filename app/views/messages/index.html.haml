@@ -53,13 +53,11 @@
             こんにちは
 
 
-    .input-box
-        .input-box__box
-            %input{id:"message_content",placeholder:"type a message",type:"text",class: "input-box__text"}
-            %label.input-box__image{for: "message_image"}
-                %i.fa.fa-image
-        .input-box__btn
-            %input{"data-disable-with" => "Send", :name => "commit", :type => "submit", :value => "Send",:class => "input-box__botan"}
-
-
-
+    .form
+        = form_for [@group, @message] do |f|
+            = f.text_field :content, class: 'form__message', placeholder: 'type a message'
+            .form__mask
+                = f.label :image, class: 'form__mask__image' do
+                    = fa_icon 'picture-o', class: 'icon'
+                    = f.file_field :image, class: 'hidden'
+            = f.submit 'Send', class: 'form__submit'
