@@ -211,6 +211,7 @@ $white:#FFFFFF;
       padding: 46px 40px 0;
       height: calc(100% - 190px);
       clear: both;
+      overflow: scroll;
       .message {
         .upper-message {
           display: flex;
