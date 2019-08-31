@@ -34,8 +34,8 @@ $(document).on('turbolinks:load', function(){
             contentType: false,
 
         })
-        .done(function(data){
-            var html = buildHTML(data);
+        .done(function(json){
+            var html = buildHTML(json);
             $('.messages').append(html)
             $('.textbox').val('')
             $('.messages').animate({ scrollTop: $('.messages')[0].scrollHeight});
