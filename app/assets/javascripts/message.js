@@ -37,15 +37,17 @@ $(document).on('turbolinks:load', function(){
         .done(function(messages){
             var html = buildHTML(messages);
             $('.messages').append(html)
-            $('.textbox').val('')
+            console.log("this");
+            $('#new_message')[0].reset();
             $('.messages').animate({ scrollTop: $('.messages')[0].scrollHeight});
             return false
-        })
-        .fail(function(data){
+          })
+          
+          .fail(function(data){
             alert('エラーが発生したためメッセージは送信できませんでした。');
-        })
-        
-        .always(function(data){
+          })
+          
+          .always(function(data){
             $('.form__submit').prop('disabled', false);
         })
     })
