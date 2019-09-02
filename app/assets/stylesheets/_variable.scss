@@ -2,14 +2,6 @@ $blue:#38AEF0;
 $white:#FFFFFF;
 
 
-// .header{
-//     background-color: $blue;
-//     height: 30px;
-//     width: 100%;
-//     color: $white;
-//     text-align: center;
-//     position: fixed;
-// }
 .btn{
     text-decoration: none;
 }
@@ -26,48 +18,6 @@ $white:#FFFFFF;
 .edit-btn:visited{
     color: $blue;
 }
-
-// .header{
-//     height: 100px;
-//     padding: 0;
-//     background-color: #253141;
-//     color: $white;
-//     font-size: 20px;
-//     &__name{
-//         font-size: 16px;
-//         color: $white;
-//         padding: 35px 0 0 20px;
-//         float: left;
-//     }
-//     &__lists{
-//         float: right;
-//         padding: 35px 20px 0 0;
-//     }
-    // margin-top: 30px;
-// }
-
-// .side-bar{
-//     background-color: #2f3e51;
-//     color: $white;
-//     font-size: 15px;
-//     float: left;
-//     width: 300px;
-//     height: 100vh;
-//     }
-
-// .group{
-//     color: $white;
-//     padding: 20px 20px;
-//     background-color: #2F3E51;
-//     &__name{
-//         font-size: 15px;
-//         padding: 20px 0 5px 0;
-//     }
-//     &__mesaage{
-//         font-size:11px;
-//         padding: 0 0 20px 0;
-//     }
-// }
 
 .chat-space{
     width: calc(100% - 300px);
@@ -105,105 +55,7 @@ $white:#FFFFFF;
     
 }
 
-// .chat-main{
-//     width: 100%;
-//     height: calc(100% - 190px);
-//     box-sizing: border-box;
-//     padding: 0 40px;
-//     background-color: #fafafa;
-//     clear: both;
-//     &__user{
-//         font-size: 16px;
-//         color: #434a54;
-//         padding: 46px 0 10px 0;
-//     }
-//     chat-main__time{
-//         font-size: 12px;
-//         color: #999999;
-//         padding-left: 10px;
-//     }
-//     &__message{
-//         font-size: 14px;
-//         color: #434a54;
-//     }
-// }
 
-// .input-box{
-//     width: 100%;
-//     height: 90px;
-//     background-color: grey;
-//     float: right;
-//     box-sizing: border-box;
-//     padding: 20px 40px;
-//     &__box{
-//         position: relative;
-//         width: calc(100% - 150px);
-//         float: left;
-//     }
-//         &__image{
-//             position: absolute;
-//             font-size: 1.3rem;
-//             top: 10px;
-//             right: -30px;
-//             cursor: pointer;
-//         }
-//     &__text{
-//         height: 50px;
-//         width: 100%;
-//         padding: 0 40px 0 10px;
-//         color: #434a54;
-//         border-style: none;
-        
-//     }
-//     &__botan{
-//         color: $white;
-//         background-color: $blue;
-//         padding: 0 30px;
-//         margin-left: 15px;
-//         width: 100px;
-//         height: 50px;
-//         cursor: pointer;
-//         float: right;
-//     }
-// }
-// .chat {
-//     width: calc(100% - 300px);
-//     .header {
-//       box-sizing: border-box;
-//       height: 100px;
-//       padding: 0 40px;
-//       .left-header {
-//         float: left;
-//         &__title {
-//           color: #333;
-//           font-size: 20px;
-//           margin-top: 35px;
-//         }
-//         &__members {
-//           @include flexbox;
-//           color: $light_gray;
-//           font-size: 12px;
-//           margin-top: 15px;
-//           .member {
-//             display: inline-block;
-//             padding-right: 5px;
-//           }
-//         }
-//       }
-//       .right-header {
-//         border: 1px solid $light_blue;
-//         color: $light_blue;
-//         float: right;
-//         height: 40px;
-//         line-height: 40px;
-//         margin-top: 28px;
-//         padding: 0 20px;
-//         &__button {
-//           color: $light_blue;
-//           text-decoration: none;
-//         }
-//       }
-//     }
   
     .messages {
       background-color: #FAFAFA;
@@ -272,4 +124,4 @@ $white:#FFFFFF;
         padding: 0 30px;
       }
     }
-  
+    
