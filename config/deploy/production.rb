@@ -1,4 +1,10 @@
-server '3.114.83.249', user: 'ec2-user', roles: %w{app db web}
+set :stage, :production
+set :rails_env, 'production'
+server '3.114.83.249', user: 'ec2-user',
+roles: %w{app db web}
+set :ssh_options, {
+ keys: [File.expand_path('~/.ssh/keychatspace.pem')]
+}
 # server-based syntax
 # ======================
 # Defines a single server with a list of roles and multiple properties.
