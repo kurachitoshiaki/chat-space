@@ -93,6 +93,10 @@ li {
   &__name {
     float: left;
   }
+  &__currentname{
+    float: right;
+    padding: 10px 568px 18px 0;
+  }
   &__btn {
     float: right;
     display: inline-block;
