@@ -21,11 +21,11 @@
     #user_search_result
 
   .chat-group-form__field.clearfix
-    %p.chat-group-user__currentname
-      = current_user.name
     .chat-group-form__field--left
       %label.chat-group-form__label チャットメンバー
     .chat-group-form__field--right
+      %p.chat-group-user__currentname
+        = current_user.name
       #chat-group-users
       #chat_group_user_22.chat_group_user.clearfix
         = f.hidden_field :user_ids, value: current_user.id, multiple: true
