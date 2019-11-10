@@ -28,9 +28,10 @@
     .chat-group-form__field--left
       = f.label "チャットメンバー", class: 'chat-group-form__label'
     .chat-group-form__field--right
-      #user-chat-menber
-        .chat-group-user.clearfix{'data-id': current_user.id}
-          = hidden_field_tag 'group[user_ids][]', current_user.id
+      #chat-group-users
+      .chat-group-user.clearfix
+        = f.hidden_field :user_ids, name: "group[user_ids][]", value:""
+        .chat-group-user.clearfix#chat-group-user-
           %p.chat-group-user__name
             = current_user.name
         - @group.users.each do |u|
