@@ -44,6 +44,7 @@ li {
     line-height: 50px;
     font-weight: bold;
     text-align: right;
+    padding-right: 15px;
   }
   &__input {
     float: left;
@@ -82,7 +83,6 @@ li {
 }
 
 .chat-group-user {
-  padding: 0 15px;
   line-height: 50px;
   font-size: 14px;
   &:after {
@@ -92,6 +92,10 @@ li {
   }
   &__name {
     float: left;
+    font-size: 14px;
+  }
+  &__currentname{
+    padding: 10px;
   }
   &__btn {
     float: right;

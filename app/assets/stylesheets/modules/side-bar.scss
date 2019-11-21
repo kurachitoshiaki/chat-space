@@ -21,7 +21,9 @@
         }
         .btn {
           color: $white;
-          font-size: $side_header_font;
+          font-size: inherit;
+          font:normal normal normal 14px/1 FontAwesome;
+          -webkit-font-somoothing: antialiased;
         }
       }
     }
@@ -32,15 +34,16 @@
       padding: 0 20px;
       .group {
         box-sizing: border-box;
-        padding: 20px 0 40px;
         &__name {
           color: $white;
           font-size: $side_group_name;
+          padding-top:20px
         }
         &__message {
           color: $white;
           font-size: $side_group_message;
           margin-top: 5px;
+          padding-bottom: 20px
         }
       }
     }
