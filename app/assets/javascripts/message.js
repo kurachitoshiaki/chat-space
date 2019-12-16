@@ -25,7 +25,7 @@ $(function () {
     $('#new_message').on('submit', function(e){
         e.preventDefault();
         var formData = new FormData(this);
-        var url = $(this).attr('action');
+        var url = $(this).attr('action'); //現在いるアクションをurlに代入している
         $('.form__submit').removeAttr('data-disable-with');
         $.ajax({
             url: url,
