@@ -8,7 +8,7 @@
 　
 ## ・Automatic updating
 
-![auto](https://user-images.githubusercontent.com/39142850/69133731-b9e2bb80-0af9-11ea-92c7-4cae24d9bb2c.gif)
+![auto](https://gyazo.com/e51f17a240277206d8ecdf436ca2d9ba/raw)
 　
 ## ・Incremental search
 
