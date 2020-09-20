@@ -1,35 +1,5 @@
 ![groupchat](https://user-images.githubusercontent.com/39142850/68285943-949a8a00-00c3-11ea-9115-96962290da5d.png)
 
-# 📝 GroupChat-App
-
-- Ruby　2.5.1
-  - Ruby on Rails　5.0.7.2
-- HAML
-- SCSS
-  - BEM
-- JavaScript
-  - jQuery
-- Font Awesome5
-- MySQL2
-- AWS
-  - Amazon S3
-  - Nginx
-  - Unicorn
-  - CarrierWave
-  - capistrano
-
-# 📘Usage
-
-```
-$ git clone https://github.com/aocattleya/GroupChat-App.git
-$ cd GroupChat-App
-$ bundle install
-$ rails db:create
-$ rails db:migrate
-$ rails s
-👉http://localhost:3000/
-```
-
 # 📦 Features
 
 ## ・Asynchronous communication
