@@ -12,7 +12,7 @@
 　
 ## ・Incremental search
 
-![Incremental search](https://user-images.githubusercontent.com/39142850/69483415-880b8500-0e6a-11ea-8ce5-f7770ec3c560.gif)
+![Incremental search](https://gyazo.com/5e479a2fe5909f3d5e89a43b75fd5b00/raw)
 
 # chat-space DB
 ## usersテーブル
