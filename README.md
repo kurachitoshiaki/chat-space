@@ -4,7 +4,7 @@
 
 ## ・Asynchronous communication
 
-![Ajax](https://user-images.githubusercontent.com/39142850/68860107-2b9ebc00-072c-11ea-9849-08d1b0ad4637.gif)
+![Ajax](https://i.gyazo.com/baf0eca455c1b020587b6423f766e050.mp4)
 　
 ## ・Automatic updating
 
