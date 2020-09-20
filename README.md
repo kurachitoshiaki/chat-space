@@ -14,7 +14,7 @@
 
 ![Incremental search](https://user-images.githubusercontent.com/39142850/69483415-880b8500-0e6a-11ea-8ce5-f7770ec3c560.gif)
 
-# chat-space DB設計
+# chat-space DB
 ## usersテーブル
 |Column|Type|Options|
 |------|----|-------|
